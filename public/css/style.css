@@ -1,0 +1,80 @@
+body {
+    padding-top: 15px;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+.navbar-primary{
+    background-image: -webkit-linear-gradient(to bottom, #25c349 0%,#28a745 100%);
+    background-image: -o-linear-gradient(to bottom, #25c349 0%,#28a745 100%);
+    background-image: linear-gradient(to bottom, #25c349 0%,#28a745 100%);
+    border: 1px solid #109f31;
+}
+
+.navbar-secondary{
+    background-color: #8dc641 !important;
+    border: 1px solid #7eb13a;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .navbar-nav .nav-item {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .masthead,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#fff!important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color:#000000!important;
+}
+
+#banner{
+    position: relative;
+}
+
+#banner_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 350px;
+}
